@@ -9,3 +9,10 @@
 .addBook{
     display: none;
 }
+.submitbtn{
+    width: 15vw;
+    background-color: rgb(0, 157, 255);
+    border-radius: 5px;
+    border: 1px white solid;
+    color: white;
+}
