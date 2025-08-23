@@ -1,1 +1,11 @@
-dummy text
+.addBook{
+    display: flex;
+    flex-direction: column;
+}
+.forminput{
+    width: 25vw;
+}
+
+.addBook{
+    display: none;
+}
