@@ -16,3 +16,11 @@
     border: 1px white solid;
     color: white;
 }
+
+table,th,td {
+    border: 1px solid black;
+}
+
+th{
+    padding: 3px;
+}

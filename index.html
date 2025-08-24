@@ -11,14 +11,27 @@
     <div class="formcont">
             <form class="addBook">
             <label for="title">Title</label>
-            <input class="forminput" type="text" placeholder="e.g. Matilda" required>
+            <input class="forminput" id="name" type="text" placeholder="e.g. Matilda" required>
             <label for="name">Author</label>
-            <input class="forminput"type="text" placeholder="e.g. Roald Dahl" required>
+            <input class="forminput"type="text" id="author" placeholder="e.g. Roald Dahl" required>
             <label for="pages">Number of Pages</label>
-            <input class="forminput" type="text" placeholder="256" required>
+            <input class="forminput" type="text" id="pages" placeholder="256" required>
             <label for="completed">Completed?</label>
-            <input class="forminput"type="text" placeholder="Yes or No" required>
+            <input class="forminput"type="text" id="completed" placeholder="Yes or No" required>
+            <br>
+            <input type="submit" class="submitbtn">
+            <br>
         </form>
+
+        <table class="table">
+            <tr>
+            <th>Name</th>
+            <th>Author</th>
+            <th>Number of Pages</th>
+            <th>Read?</th>
+            <th>ID</th>
+            </tr>
+        </table>
     </div>
     <script src="script.js" defer></script>
 </body>
