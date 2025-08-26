@@ -1,1 +1,26 @@
-dummy text
+.addBook{
+    display: flex;
+    flex-direction: column;
+}
+.forminput{
+    width: 25vw;
+}
+
+.addBook{
+    display: none;
+}
+.submitbtn{
+    width: 15vw;
+    background-color: rgb(0, 157, 255);
+    border-radius: 5px;
+    border: 1px white solid;
+    color: white;
+}
+
+table,th,td {
+    border: 1px solid black;
+}
+
+th{
+    padding: 3px;
+}
